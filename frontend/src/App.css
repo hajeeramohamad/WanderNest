@@ -1,0 +1,68 @@
+/* ===== Booking Form Styles ===== */
+.booking-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.date-picker-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.guest-container {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* ... Add ALL other styles from previous answer here ... */
+
+/* Date Picker Fixes */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+
+
+
+.error-field {
+  border: 2px solid #ff4444;
+  background-color: #ffe6e6;
+}
+
+.error-messages {
+  color: #ff4444;
+  margin: 0.5rem 0;
+}
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-message {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
